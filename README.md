@@ -1,4 +1,6 @@
 # Fuzzy Database using Python and Pandas
+![image](https://github.com/agung-madani/fuzzy-database-app-pandas/assets/121701309/9aa8f7b1-20cb-4953-affe-fb2233db235f)
+
 This repository contains a Jupyter Notebook Python script that uses fuzzy logic to make recommendations for houses based on a CSV file of house listings. The script using Pandas as tool for data manipulation. The script prompts the user to create membership functions for each column of the CSV file (except the first one) and stores the resulting membership functions in a fuzzy database. The membership functions can be either triangular (TRIMF) or trapezoidal (TRAPMF). The script then asks the user to specify their preferences for each column and uses the membership functions to calculate a recommendation score for each house. The houses are then ranked and the top three recommendations are displayed to the user.
 ## Requirements
 To use this script, you will need to have the following packages installed:
